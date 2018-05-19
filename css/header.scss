@@ -1,0 +1,51 @@
+.header{
+  z-index: 99;
+  top: 0;
+  position: fixed;
+  background: #fff;
+  display: flex;
+  text-transform: uppercase;
+  width: 100%;
+  .header-filter__active{
+    background: #fd5c08;
+  }
+  h1{
+    margin-left: 10%;
+    margin-right: 20%;
+    color: #fd5c08;
+  }
+  .header-filter{
+
+    &:hover{
+      background: #fd5c08;
+    }
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    height: 3.5em;
+    img{
+      margin: 10px;
+      height: 1em;
+      color: black;
+    }
+    p{
+      margin: 0 auto;
+    }
+  }
+}
+.footer{
+	background-color: #fd5c08;
+	height: 210px;
+	color: #fff;
+	text-align: center;
+	padding-top: 25px;
+	li{
+		list-style: none;
+		display: inline-block;
+		padding: 20px;
+		i{
+			font-size: 18px;
+
+		}
+	}
+}

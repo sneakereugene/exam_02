@@ -1,0 +1,22 @@
+.block4{
+  background-image: url(../img/tajbg.jpg);
+  background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: cover;
+  .block4-info{
+    // background-image: url(../img/tajbg.jpg);
+    background-size: auto;
+    text-transform: uppercase;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+      padding-top: 150px;
+      padding-bottom: 150px;
+      h1{
+        font-weight: bold;
+        font-size: 50px;
+        color: #fd5c08;
+      }
+  }
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>exam</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/slick.css" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+</head>
+<body>
+
+				<!-- BLOCK 1 -->
+				<div class="block1">
+					<div class="header">
+						<h1>TRAVELLY</h1>
+						<div class="header-filter"><img src="img/icon_plane-tickets.png" alt=""><p>let's travel</p></div>
+						<div class="header-filter header-filter__active"><img src="img/icon_travel.png" alt=""><p>cities</p></div>
+						<div class="header-filter"><img src="img/icon_rent-a-car.png" alt=""><p>best ofers</p></div>
+						<div class="header-filter"><img src="img/icon_hotels.png" alt=""><p>hot ofers</p></div>
+					</div>
+					<div class="slider-info">
+						<h3>EXPERIENCE</h3>
+						<h1>AMERICAN <br/>Holliday</h1>
+						<p>America has been growing as a tourist destination, and <br/> as it becomes more and more accustomed to receiving so many visitors, its hospitality just gets better.</p>
+					</div>
+					<div class="kicks-slider">
+						<img class="slide" src="img/slider1/s1.jpg" alt="">
+						<img class="slide" src="img/slider1/s2.jpg" alt="">
+						<img class="slide" src="img/slider1/s3.jpg" alt="">
+						<img class="slide" src="img/slider1/s4.jpg" alt="">
+						<img class="slide" src="img/slider1/s5.jpg" alt="">
+						<img class="slide" src="img/slider1/s6.jpg" alt="">
+
+					</div>
+
+					<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+					<script src="js/slick.min.js"></script>
+					<script>
+						;(function($){
+							"use strict";
+							$(function(){
+
+								$('.kicks-slider').slick({
+									slidesToShow: 1,
+									prevArrow: ".prev-button",
+									nextArrow: ".next-button",
+
+								});
+							})
+						})(jQuery);
+
+					</script>
+				</div>
+				<!-- Block 2 -->
+				<div class="block2">
+					<div class="container">
+								<div class="block2-info">
+											<div class="block2-info_left">
+												<h1>personnaly</h1>
+												<p> tailored experiences</p>
+											</div>
+											<div class="block2-info_right">
+												<p>From the breathtaking national parks in the Western U.S. to the <br/> charming Southern towns and historic cities in the East, TRAVELY offers <br/> escorted tours throughout Canada and the United States. </p>
+											</div>
+								</div>
+								<div class="city-prices">
+										<div class="city-prices_1">
+											<div class="city-prices_elem" style="background-image: url('img/taj.png')"><span>Starting at</span><p>€399</p></div>
+											<div class="city-prices_elem" style="background-image: url('img/drag.png')"><span>Starting at</span><p>€259</p></div>
+											<div class="city-prices_elem" style="background-image: url('img/layer-8.png')"><span>Starting at</span><p>€920</p></div>
+											<div class="city-prices_elem" style="background-image: url('img/layer-11.png')"><span>Starting at</span><p>$288</p></div>
+											<div class="city-prices_elem" style="background-image: url('img/layer-10.png')"><span>Starting at</span><p>€659</p></div>
+											<div class="city-prices_elem" style="background-image: url('img/car.png')"><span>Starting at</span><p>€340</p></div>
+
+										</div>
+								</div>
+					</div>
+				</div>
+				<!-- block4 -->
+				<div class="block4">
+					<div class="container">
+							<div class="block4-info">
+								<h1>Find out first</h1>
+								<p>about the Best Offers</p>
+							</div>
+					</div>
+				</div>
+				<!-- MAP -->
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBPOirjD2_wPSL8ZbGbB7QRtca1Q8Ts30&callback=initMap" async defer></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+				<div id="map" style="height: 600px"></div>
+	<div class="controls">
+
+	</div>
+    <script>
+			var map;
+			var lastMarker;
+			var Roma = {lat: 41.9102411, lng: 12.3955709};
+			var Paris = {lat: 47.1584879, lng: 1.0363636};
+
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {
+						lat: 45.9516768, lng: 8.3834705
+					},
+          zoom: 6,
+        });
+
+     var marker = new google.maps.Marker({
+         position: Roma,
+         map: map
+     });
+     var marker = new google.maps.Marker({
+         position: Paris,
+         map: map
+     });
+ }
+    </script>
+		<footer>
+			<div class="footer">
+				<svg
+				 xmlns="http://www.w3.org/2000/svg"
+				 xmlns:xlink="http://www.w3.org/1999/xlink"
+				 width="144px" height="24px">
+				<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+				 d="M135.336,16.037 L135.336,23.429 L129.336,23.429 L129.336,15.975 L121.377,0.429 L128.047,0.429 L132.477,9.867 L136.994,0.429 L143.664,0.429 L135.336,16.037 ZM124.336,23.429 L107.336,23.429 L107.336,0.429 L113.336,0.429 L113.336,18.429 L124.336,18.429 L124.336,23.429 ZM87.336,0.429 L104.336,0.429 L104.336,6.429 L93.336,6.429 L93.336,9.429 L102.336,9.429 L102.336,14.429 L93.336,14.429 L93.336,18.429 L104.336,18.429 L104.336,23.429 L87.336,23.429 L87.336,0.429 ZM72.021,23.429 L63.205,0.429 L69.655,0.429 L74.499,14.958 L79.255,0.429 L85.705,0.429 L76.956,23.429 L72.021,23.429 ZM58.833,23.429 L57.128,19.429 L50.992,19.429 L49.318,23.429 L42.943,23.429 L42.932,23.429 L51.685,0.429 L56.495,0.429 L65.311,23.429 L58.833,23.429 ZM54.065,8.403 L52.126,14.429 L55.937,14.429 L54.065,8.403 ZM42.789,23.429 L42.837,23.429 L42.932,23.429 L42.878,23.571 L42.789,23.429 ZM31.601,16.429 L29.336,16.429 L29.336,23.429 L23.336,23.429 L23.336,0.429 L33.397,0.429 C34.503,0.429 35.542,0.902 36.486,1.368 C37.417,1.828 38.233,2.676 38.913,3.421 C39.589,4.163 40.127,5.014 40.510,5.954 C40.895,6.901 41.090,7.868 41.090,8.836 C41.090,9.557 41.001,10.255 40.826,10.924 C40.649,11.594 40.394,12.218 40.065,12.808 C39.735,13.403 39.326,13.917 38.851,14.393 C38.498,14.745 38.107,15.002 37.684,15.277 L42.789,23.429 L36.034,23.429 L31.601,16.429 ZM34.301,7.043 C33.901,6.610 33.494,6.429 33.057,6.429 L29.336,6.429 L29.336,11.429 L33.211,11.429 C33.650,11.429 34.027,11.198 34.364,10.757 C34.728,10.281 34.913,9.632 34.913,8.859 C34.913,8.073 34.712,7.489 34.301,7.043 ZM13.336,23.429 L7.336,23.429 L7.336,6.429 L0.336,6.429 L0.336,0.429 L20.336,0.429 L20.336,6.429 L13.336,6.429 L13.336,23.429 Z"/>
+				</svg>
+				<p>Specialists in family adventure travel and family activity holidays overseas.<br> Call us on 0845 051 4567.
+		<br>TRAVELY, New Alresford, Hampshire, SO24 0AA</p>
+				<ul>
+					<li><i class="ion-social-facebook"></i></li>
+					<li><i class="ion-social-twitter"></i></li>
+					<li><i class="ion-social-pinterest"></i></li>
+				</ul>
+
+			</div>
+		</footer>
+</body>
+</html>

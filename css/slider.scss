@@ -1,0 +1,23 @@
+.container{
+  // max-width: 80px;
+  // align-items: center;
+}
+.block1{
+  .kicks-slider{
+    .slide{
+    	width: 100%;
+      max-height: 800px;
+    }
+  }
+  .slider-info{
+    z-index: 2;
+    color: #fff;
+    position: absolute;
+    margin-left: 14%;
+    margin-top: 30%;
+
+    h1, h3{
+      text-transform: uppercase;
+    }
+  }
+}

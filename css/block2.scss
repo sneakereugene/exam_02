@@ -1,0 +1,56 @@
+.block2{
+  background-image: url(../img/map2.jpg);
+  background-repeat: no-repeat;
+}
+.container{
+  // height: 800px;
+  width: 1170px;
+  margin: 0 auto;
+
+  .block2-info{
+    margin-top: 60px;
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-bottom: 60px;
+
+    display: flex;
+    .block2-info_left{
+      text-transform: uppercase;
+      margin-right: 5%;
+      h1{
+        font-size: 40px;
+        color: #fd5c08;
+      }
+      p{
+        font-size: 12px;
+      }
+    }
+    .block2-info_right{
+
+    }
+  }
+  .city-prices{
+    .city-prices_1{
+        display: flex;
+        flex-wrap: wrap;
+        .city-prices_elem{
+          background-position: center;
+          background-size: cover;
+          height: 390px;
+          width: 33.3%;
+          background-color: red;
+          padding: 3em;
+          span{
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 1em;
+          }
+          p{
+            color: #fff;
+            font-size: 1.7em;
+            font-weight: bolder;
+          }
+        }
+    }
+  }
+}

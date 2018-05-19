@@ -1,0 +1,113 @@
+.block1 .kicks-slider .slide {
+  width: 100%;
+  max-height: 800px; }
+.block1 .slider-info {
+  z-index: 2;
+  color: #fff;
+  position: absolute;
+  margin-left: 14%;
+  margin-top: 30%; }
+  .block1 .slider-info h1, .block1 .slider-info h3 {
+    text-transform: uppercase; }
+
+.block4 {
+  background-image: url(../img/tajbg.jpg);
+  background-repeat: no-repeat; }
+  .block4 .block4-info {
+    background-size: auto;
+    text-transform: uppercase;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px; }
+    .block4 .block4-info h1 {
+      font-weight: bold;
+      font-size: 50px;
+      color: #fd5c08; }
+
+.header {
+  z-index: 99;
+  top: 0;
+  position: fixed;
+  background: #fff;
+  display: flex;
+  text-transform: uppercase;
+  width: 100%; }
+  .header .header-filter__active {
+    background: #fd5c08; }
+  .header h1 {
+    margin-left: 10%;
+    margin-right: 20%;
+    color: #fd5c08; }
+  .header .header-filter {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    height: 3.5em; }
+    .header .header-filter:hover {
+      background: #fd5c08; }
+    .header .header-filter img {
+      margin: 10px;
+      height: 1em;
+      color: black; }
+    .header .header-filter p {
+      margin: 0 auto; }
+
+.footer {
+  background-color: #fd5c08;
+  height: 210px;
+  color: #fff;
+  text-align: center;
+  padding-top: 25px; }
+  .footer li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px; }
+    .footer li i {
+      font-size: 18px; }
+
+.block2 {
+  background-image: url(../img/map2.jpg);
+  background-repeat: no-repeat; }
+
+.container {
+  width: 1170px;
+  margin: 0 auto; }
+  .container .block2-info {
+    margin-top: 60px;
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-bottom: 60px;
+    display: flex; }
+    .container .block2-info .block2-info_left {
+      text-transform: uppercase;
+      margin-right: 5%; }
+      .container .block2-info .block2-info_left h1 {
+        font-size: 40px;
+        color: #fd5c08; }
+      .container .block2-info .block2-info_left p {
+        font-size: 12px; }
+  .container .city-prices .city-prices_1 {
+    display: flex;
+    flex-wrap: wrap; }
+    .container .city-prices .city-prices_1 .city-prices_elem {
+      background-position: center;
+      background-size: cover;
+      height: 390px;
+      width: 33.3%;
+      background-color: red;
+      padding: 3em; }
+      .container .city-prices .city-prices_1 .city-prices_elem span {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 1em; }
+      .container .city-prices .city-prices_1 .city-prices_elem p {
+        color: #fff;
+        font-size: 1.7em;
+        font-weight: bolder; }
+
+body {
+  font-family: 'Raleway', sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
